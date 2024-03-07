@@ -107,7 +107,6 @@ public class Page {
         JButton buttonRead = new JButton("Search") ; 
         buttonRead.addActionListener(new ActionListener() {
         ArrayList<JLabel> bufferText = new ArrayList<>(); 
-            
             @Override
             public void actionPerformed(ActionEvent e) {  
                 JLabel outputText = new JLabel();
@@ -126,7 +125,6 @@ public class Page {
                 }
             }
         });
-
         readContainer.add(textRead) ; 
         readContainer.add(input_id_read) ; 
         readContainer.add(buttonRead) ; 
